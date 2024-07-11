@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(groc-img.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+   
+    
+
+}
+
+
+.sub{
+    
+    width: 400px;
+    padding-bottom: 30px;
+    background-color: rgba(183, 179, 179,0.8);
+    height: 150px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   
+
+}
+.sub h1{
+    
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.sub h1 img{
+    margin-left:2px ;
+}
+
+.input{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 30px;
+    position: relative;
+}
+
+.input input{
+    width:250px ;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: 1rem;
+    
+}
+
+.input button{
+    position: absolute;
+    width: 80px;
+    right: 0px;
+    height:31px ;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #ed6809;
+   
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.input input:focus{
+    box-shadow: 3px 3px 20px #ed6809;
+}
+.input button:hover{
+    box-shadow: 3px 3px 30px #f1a46d;
+}
+
+
+ul{
+    margin-left: 57px;
+    margin-top: 30px;
+}
+
+ul li{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    
+}
+ul li span{
+   margin-top: 3px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+   
+   
+}
+ul li span:hover{
+    background-color: #ed6809;
+}
+
+
+.items{
+    width: 400px;
+    background-color: rgba(183, 179, 179,0.8);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 30px;
+    overflow-y: scroll;
+}

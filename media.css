@@ -1,0 +1,12 @@
+@media screen and (max-width:468px) {
+   .sub,.items{
+    width: 350px;
+   
+   }
+   .input{
+    margin-left: 30px;
+   }
+   ul li{
+    width: 250px;
+   }
+}
